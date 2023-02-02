@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  .book-title {
+    font-weight: bold;
+  }
+  
+  .category {
+    color: blue;
+  }
+  
+  #filter-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  #filter-select {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  #filter-button {
+    height: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  #modal {
+    display: none;
+  }
